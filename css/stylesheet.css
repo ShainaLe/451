@@ -7,7 +7,7 @@
 }
 
 h1 {
-  font-family: 'Klinic Slab Bold', sans-serif;
+  font-family: 'Bitter', sans-serif;
   font-size: 3em;
   color: #5e1211;
   text-align: center;
@@ -15,13 +15,16 @@ h1 {
 
   body, html {
   height: 100%;
-  background-color: #ffffff;
+  background-color: #DFD9AB;
+  font-family: 'Hind', sans-serif;
   }
 
-@font-face {
-    font-family: Klinic Slab Bold;
-    src: url(KlinicSlabBold.otf);
-  }
+/*@font-face {
+    font-family: Bitter Bold;
+    src: url(Bitter-VariableFont_wght.ttf);
+    font-family: Hind;
+    src: url(Hind-Regular.ttf);
+  }*/
 
   /* header */
 
@@ -51,7 +54,7 @@ h1 {
   }
 
   .header-paralax-small-contact {
-    background-image: url('/root_folder/images/tomato.jpg');
+    background-image: url('/images/beans.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -61,7 +64,7 @@ h1 {
   }
 
   .header-paralax-small-about {
-    background-image: url('/root_folder/images/shrimp.jpg');
+    background-image: url('/images/beans.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -71,7 +74,7 @@ h1 {
   }
 
   .header-paralax-small-menu {
-    background-image: url('/root_folder/images/bread.jpg');
+    background-image: url('/images/beans.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -98,7 +101,7 @@ h1 {
     text-align: center;
     color: #fff;
     text-shadow: 2px 3px 1px #111111;
-    font-family: 'Goudy Old Style', serif;
+    font-family: 'Hind', serif;
     font-weight: 900;
     letter-spacing: 0.16em;
     font-size: 6em;
@@ -111,7 +114,7 @@ h1 {
     background: #fff;
     position: relative;
     top: 600px;
-    font-family: 'Goudy Old Style', serif;
+    font-family: 'Hind', sans-serif;
     color: #111111;
     overflow: hidden;
   }
@@ -120,7 +123,7 @@ h1 {
     background: #fff;
     position: relative;
     top: 250px;
-    font-family: 'Goudy Old Style', serif;
+    font-family: 'Hind', sans-serif;
     color: #111111;
     overflow: hidden;
   }
@@ -151,25 +154,23 @@ h1 {
 
   .navbar{
     position:fixed;
-    background-color:#CF1C44;
     overflow:hidden;
     width: 100%;
     z-index: 2;
-    font-family: 'Klinic Slab Bold', sans-serif;
-    font-weight:bold;
-    font-size: 1.5em;
-    border-bottom: 4px solid white;
+    font-family: 'Hind', sans-serif;
+    font-weight:lighter;
+    font-size: 1em;
     }
     .navbar a{
         text-decoration:none;
         text-align: center;
         padding: 14px 16px;
         float: left;
-        color: white;
+        color: #DFD9AB;
     }
     .navbar a:hover{
-        background-color:#0B9446;
         font-weight: bold;
+        color: white;
     }
 
     ul {
@@ -211,17 +212,26 @@ h1 {
       margin-top: 40px;
       padding: 10px;
       height: 500px;
-      font-family: 'Klinic Slab Bold', sans-serif;
+      font-family: 'Bitter', sans-serif;
       font-weight:bold;
-      color: white;
+      color: #191312;
       text-align: center;
       padding: 70px;
     }
   
     .column li{
-      color: white;
+      color: #191312;
       text-align: left;
       line-height: 2em;
+    }
+
+    .column a {
+      color: #7E0000;
+      text-decoration: none;
+    }
+
+    .column a:hover {
+      color: white;
     }
     
     .row:after {
@@ -236,7 +246,7 @@ h1 {
       margin-top: 40px;
       padding: 10px;
       height: 600px;
-      font-family: 'Klinic Slab Bold', sans-serif;
+      font-family: 'Bitter', sans-serif;
       font-weight:bold;
       color: white;
       text-align: center;
@@ -264,10 +274,10 @@ h1 {
   /* subpage mains */
 
 .normal-container{
-  background-color: #D8C6B8;
+  background-color: #DFD9AB;
   border-top: 4px solid white;
   padding:30px 40px;
-  font-family: 'Klinic Slab Bold', sans-serif;
+  font-family: 'Bitter', sans-serif;
   margin: auto;
   margin-bottom: 100px;
   position: relative;
@@ -335,7 +345,7 @@ h1 {
   }
   
   .menu-item-name{
-    font-family: 'Goudy Old Style';
+    font-family: 'Hind';
     font-weight: bold;
     border-bottom: 2px dotted #ffffff;
   }
@@ -344,20 +354,20 @@ h1 {
     font-style: italic;
     font-size: .9em;
     line-height: 1.5em;
-    font-family: 'Goudy Old Style';
+    font-family: 'Hind';
   }
   
   .menu-item-price{
     float: right;
     font-weight: bold;
-    font-family: 'Goudy Old Style';
+    font-family: 'Hind';
     margin-top: -22px;
   }
   
 /* socials */
 
 .socials{
-  font-family: 'Klinic Slab Bold', sans-serif;
+  font-family: 'Hind', sans-serif;
   text-align:left;
   }
   
@@ -396,10 +406,10 @@ h1 {
   /* footer */
 
 .footer{
-  border-top: 4px solid white;
-  background:#CF1C44;
+  border-top: 10px solid #7E0000;
+  background:#DFD9AB;
   padding:30px 0px;
-  font-family: 'Klinic Slab Bold', sans-serif;
+  font-family: 'Hind', sans-serif;
   text-align:center;
   }
   
@@ -407,18 +417,18 @@ h1 {
   width:100%;
   margin:1% 0%;
   padding:0.6% 0%;
-  color:white;
+  color:#191312;
   font-size:1em;
   }
   
   .footer .frow a{
   text-decoration:none;
-  color:white;
+  color:#191312;
   transition:0.5s;
   }
   
   .footer .frow a:hover{
-  color:#fff;
+    color:#191312;
   }
   
   .footer .frow ul{
