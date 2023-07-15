@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <title>Pasta Amore</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="GRA 310">
+        <meta name="keywords" content="Java Bea , coffee, food, home">
+        <meta name="author" content="Shaina Le">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Scripts -->
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <script src="frontpage.js"></script>
+        <script type="text/javascript" src="/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function(){
+                $(".accordion-titel").click(function(){
+                $(this).parent(".accordion-item").find(".accordion-contant").slideToggle();
+                $(this).parent(".accordion-item").prevAll(".accordion-item").find(".accordion-contant").slideUp();
+                $(this).parent(".accordion-item").nextAll(".accordion-item").find(".accordion-contant").slideUp();
+                });
+            });
+
+        </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Hind:wght@300;400&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body> 
+
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!--header-->
+
+        <header class="header-paralax-small-menu">
+            <div class="logomain"><a href="index.html"><img src="images/logo.png" width="500px" title="Logo" alt="Logo of the Java Beans restaurant. Behind the header is an image many coffee beans."></a></div> 
+          </header>
+
+          <div class="subpage">
+            <div class="container">    
+              <h1>Menu</h1>
+              <br>
+
+            <!--images-->
+            
+            <img src="images/fooditems.jpg" title="Cooking" alt="French bread with blueberry and strawberry toppings." style="z-index: 0; width:300px; height: 500px; position: absolute; object-fit: cover; object-position: -200% 0; left: 250px; top: 400px;">
+
+            <img src="images/cold.jpg" title="Cooking" alt="Iced coffee on a table." style="z-index: 0; width:300px; height: 500px; position: absolute; object-fit: cover; object-position: 300% 0; right: 250px; top: 400px;">
+
+            <!--images end-->
+
+            <div class="normal-container">
+                
+              <div class="inside-normal">
+
+        <!--menu-->
+
+
+      <div class="menu-body">
+ 
+      
+          <div class="menu-section">
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-titel">
+                        <h2 class="menu-section-title">Hot Drinks <i class="fa-solid fa-caret-up"></i></h2>
+                    </div>
+
+            <div class="accordion-contant">
+              <div class="menu-item">
+                  <div class="menu-item-name">
+                      Coffee
+                  </div>
+                  
+                  <div class="menu-item-price">
+                      $5
+                  </div>
+  
+                  <div class="menu-item-description">
+                      Normal brew
+                  </div>
+  
+              </div>
+              <!-- Item ends -->
+  
+              <!-- Item starts -->
+              <div class="menu-item">
+  
+                  <div class="menu-item-name">
+                      Expresso
+                  </div>
+                  
+                  <div class="menu-item-price">
+                      $7
+                  </div>
+  
+                  <div class="menu-item-description">
+                      For that kick
+                  </div>
+                  
+              </div>
+              <!-- Item ends -->
+  
+              <!-- Item starts -->
+              <div class="menu-item">
+  
+                  <div class="menu-item-name">
+                      Capaccino
+                  </div>
+  
+                  <div class="menu-item-price">
+                      $5
+                  </div>
+  
+                  <div class="menu-item-description">
+                      A nice blend
+                  </div>
+  
+              </div>
+              <!-- Item ends -->
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+          
+          <div class="menu-section">
+  
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-titel">
+                        <h2 class="menu-section-title">Cold Drinks <i class="fa-solid fa-caret-up"></i></h2>
+                    </div>
+
+            <div class="accordion-contant">
+              <!-- Item starts -->
+              <div class="menu-item">
+  
+                  <div class="menu-item-name">
+                      Iced Coffee
+                  </div>
+  
+                  <div class="menu-item-price">
+                      $5
+                  </div>
+  
+                  <div class="menu-item-description">
+                      Normal blend
+                  </div>
+  
+              </div>
+              <!-- Item ends -->
+  
+              <!-- Item starts -->
+              <div class="menu-item">
+  
+                  <div class="menu-item-name">
+                      Frappacino
+                  </div>
+  
+                  <div class="menu-item-price">
+                      $10
+                  </div>
+  
+                  <div class="menu-item-description">
+                      Coffee, Chocolate, and Caramel
+                  </div>
+  
+              </div>
+              <!-- Item ends -->
+  
+              <!-- Item starts -->
+              <div class="menu-item">
+  
+                  <div class="menu-item-name">
+                      Smoothie
+                  </div>
+  
+                  <div class="menu-item-price">
+                      $11
+                  </div>
+  
+                  <div class="menu-item-description">
+                      Strawberry, Mango, and Berry
+                  </div>
+  
+              </div>
+              <!-- Item ends -->
+  
+            </div>
+        </div>
+    </div>
+
+          </div>      
+
+          <div class="menu-section">
+  
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-titel">
+                        <h2 class="menu-section-title">Food Items <i class="fa-solid fa-caret-up"></i></h2>
+                    </div>
+
+            <div class="accordion-contant">
+            <!-- Item starts -->
+            <div class="menu-item">
+
+                <div class="menu-item-name">
+                    Crepe
+                </div>
+
+                <div class="menu-item-price">
+                    $5
+                </div>
+
+                <div class="menu-item-description">
+                    Soft chocolate
+                </div>
+
+            </div>
+            <!-- Item ends -->
+
+            <!-- Item starts -->
+            <div class="menu-item">
+
+                <div class="menu-item-name">
+                    Croissant
+                </div>
+
+                <div class="menu-item-price">
+                    $7
+                </div>
+
+                <div class="menu-item-description">
+                    Nice and flaky
+                </div>
+
+            </div>
+            <!-- Item ends -->
+
+            <!-- Item starts -->
+            <div class="menu-item">
+
+                <div class="menu-item-name">
+                    Toast
+                </div>
+
+                <div class="menu-item-price">
+                    $3
+                </div>
+
+                <div class="menu-item-description">
+                    Buttered or French Bread
+                </div>
+
+            </div>
+            <!-- Item ends -->
+        </div>
+    </div>
+</div>
+            
+        </div>
+              
+      </div>	
+
+      
+    </div>
+    
+</div>      
+  
+              
+            </div>
+
+<!--footer-->
+            
+<footer>
+    <div class="footer">
+    <div class="frow">
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+    <a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="frow">
+      <ul>
+        <li>123 Coffee Ave</li>
+        <li>City, USA</li>
+        <li>(123) 456 - 7890</li>
+      </ul>
+    </div>
+    
+      <div class="frow">
+      Java Bean Copyright © 2023 - Present
+      </div>
+    </div>
+  </footer>
+
+        </div>
+
+    </body>
+</html>
