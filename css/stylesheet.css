@@ -657,6 +657,19 @@ h1 {
     clear: both;
   }
 
+  .google-map {
+    padding: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
   /* footer */
 
 .footer{

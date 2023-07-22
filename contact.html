@@ -16,24 +16,6 @@
         <script src="js/formvalidate.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-        <!--Email-->
-        <script>
-            function validateEmail(emailId)
-            {
-            var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-            if(emailId.value.match(mailformat))
-            {
-            document.form1.text1.focus();
-            return true;
-            }
-            else
-            {
-            alert("Invalid email address.");
-            document.form1.text1.focus();
-            return false;
-            }
-            }
-            </script>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -153,6 +135,9 @@
                 </div>
                 <div class="column2" style="border-bottom: 10px solid #7E0000;">
                     Map
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1527947668746!2d-71.45193032387317!3d43.03821657113789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e24595182c672d%3A0x1af9c9f4bffd579e!2sSouthern%20New%20Hampshire%20University!5e0!3m2!1sen!2sus!4v1689997030244!5m2!1sen!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                 </div>
               </div>
 
