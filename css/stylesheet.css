@@ -11,6 +11,47 @@
   body {
     background-color: #DFD9AB;
   }
+  /* Style the navigation menu */
+  .navbar {
+    overflow: hidden;
+    background-color: #7E0000;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .navbar #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .navbar a {
+    color: #DFD9AB;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .navbar a.icon {
+    background: #7E0000;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .navbar a:hover {
+    background-color: #7E0000;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #191312;
+    color: #DFD9AB;
+  }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
@@ -18,12 +59,97 @@
   body {
     background-color: #DFD9AB;
   }
+  /* Style the navigation menu */
+  .navbar {
+    overflow: hidden;
+    background-color: #7E0000;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .navbar #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .navbar a {
+    color: #DFD9AB;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .navbar a.icon {
+    background: #7E0000;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .navbar a:hover {
+    background-color: #7E0000;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #191312;
+    color: #DFD9AB;
+  }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
   body {
     background-color: #DFD9AB;
+  }
+  .bars {
+    display: flex;
+  }
+  /* Style the navigation menu */
+  .navbar {
+    overflow: hidden;
+    background-color: #7E0000;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .navbar #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .navbar a {
+    color: #DFD9AB;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .navbar a.icon {
+    background: #7E0000;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .navbar a:hover {
+    background-color: #7E0000;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #191312;
+    color: #DFD9AB;
   }
 }
 
@@ -39,6 +165,10 @@
   body {
     background-color: #DFD9AB;
   }
+}
+
+.bars {
+  display: none;
 }
 
 h1 {
@@ -93,7 +223,7 @@ h1 {
     background-size: cover;
     width: 100%;
     position: fixed;
-    height: 350px;
+    height: 130px;
     margin-top: -5%;
   }
 
@@ -103,7 +233,7 @@ h1 {
     background-size: cover;
     width: 100%;
     position: fixed;
-    height: 350px;
+    height: 130px;
     margin-top: -5%;
   }
 
@@ -113,7 +243,7 @@ h1 {
     background-size: cover;
     width: 100%;
     position: fixed;
-    height: 350px;
+    height: 130px;
     margin-top: -5%;
   }
   
@@ -123,7 +253,7 @@ h1 {
     background-size: cover;
     width: 100%;
     position: fixed;
-    height: 350px;
+    height: 130px;
     margin-top: -5%;
   }
 
@@ -164,9 +294,9 @@ h1 {
   }
 
   .subpage {
-    background: #fff;
+    background: #DFD9AB;
     position: relative;
-    top: 250px;
+    top: 100px;
     font-family: 'Hind', sans-serif;
     color: #111111;
     overflow: hidden;
@@ -175,7 +305,7 @@ h1 {
   .container {
     width:100%;
     padding: 0 26%;
-    background-color: #fff;
+    background-color: #DFD9AB;
   }
   
   .container h1 {
@@ -192,6 +322,28 @@ h1 {
     font-size:1.6em;
     line-height: 1.5;
     color: #543136;
+  }
+
+  .darkcontainer {
+    width:100%;
+    padding: 0 26%;
+    background-color: #191312;
+  }
+  
+  .darkcontainer h1 {
+    padding: 1.2em 0 0 0;
+    font-size: 3.5em;
+    color: #DFD9AB;
+  }
+  .contaidarkcontainerner h2 {
+    padding:0 0 0.8em 0.4em;
+    font-size:1.5em;
+  }
+  .darkcontainer p {
+    padding-bottom: 1em;
+    font-size:1.6em;
+    line-height: 1.5;
+    color: #DFD9AB;
   }
 
     /* navigation */
@@ -318,7 +470,7 @@ h1 {
   /* subpage mains */
 
 .normal-container{
-  background-color: #DFD9AB;
+  background-color: #191312;
   border-top: 4px solid xwhite;
   padding:30px 40px;
   font-family: 'Bitter', sans-serif;
@@ -333,9 +485,8 @@ h1 {
   width:100%;
   margin:1% 0%;
   padding:0.6% 0%;
-  color:white;
   font-size:1em;
-  border: 2px solid #ffffff;
+  border: 2px solid #883E24;
   z-index: 2;
   }
   
@@ -369,7 +520,7 @@ h1 {
     max-width: 680px;
     margin: 0 auto;
     display: block;
-    color: #5e1211;
+    color: #DFD9AB;
   }
   
   .menu-section {
@@ -391,7 +542,8 @@ h1 {
   .menu-item-name{
     font-family: 'Hind';
     font-weight: bold;
-    border-bottom: 2px dotted #ffffff;
+    border-bottom: 2px dotted #883E24;
+    padding-left: 5%;
   }
   
   .menu-item-description {
@@ -399,6 +551,7 @@ h1 {
     font-size: .9em;
     line-height: 1.5em;
     font-family: 'Hind';
+    padding-left: 5%;
   }
   
   .menu-item-price{
@@ -406,6 +559,7 @@ h1 {
     font-weight: bold;
     font-family: 'Hind';
     margin-top: -22px;
+    padding-right: 5%;
   }
   
 /* socials */

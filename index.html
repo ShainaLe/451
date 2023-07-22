@@ -11,6 +11,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
         <script src="js/frontpage.js"></script>
+        <script src="js/menu.js/"></script>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -28,6 +29,7 @@
     <body>
 
     <div class="navbar">
+      <div id="myLinks">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -35,7 +37,15 @@
         <li><a href="locations.html">Locations</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+      </div>
+      <div class="bars">
+        <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+        <i class="fa fa-bars"></i>
+        </div>
+      </a>
     </div>
+
+    
 
     <!--header-->
 
@@ -48,7 +58,7 @@
     <!--buttons-->
 
           <main>
-            <div class="container">    
+            <div class="darkcontainer" style="border-top: 10px solid #7E0000;"">    
               <h1>New Item</h1>
               <br>
               <p style="text-align:center;">Autumn is coming, get your cozy new drink today!</p>
