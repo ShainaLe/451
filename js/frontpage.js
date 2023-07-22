@@ -9,5 +9,5 @@ function scrollBanner() {
     }
   }
   window.addEventListener('scroll', scrollBanner);
-  
+
   

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <title>Java Bean</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="GRA 310">
+        <meta name="keywords" content="Java Bea , coffee, food, home">
+        <meta name="author" content="Shaina Le">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Scripts -->
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <script src="js/frontpage.js"></script>
+        <script src="js/menu.js"></script>
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Hind:wght@300;400&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body> 
+
+        <div class="navbar">
+            <div id="myLinks">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="index.html"><img src="images/logo.png" width="30px" title="Logo" alt="Logo of the Java Beans restaurant."></a></li>
+            </ul>
+            </div>
+            <div class="bars"><a href="javascript:void(0);" class="icon" onclick="myMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+            </div>
+          </div>
+       
+
+
+    <!--header-->
+
+        <header class="header-paralax-small-menu">
+            <!--<div class="logomain"><a href="index.html"><img src="images/logo.png" width="75px" title="Logo" alt="Logo of the Java Beans restaurant. Behind the header is an image many coffee beans."></a></div>--> 
+          </header>
+
+          <div class="subpage">
+            <div class="container">    
+              <h1>Contact</h1>
+
+              <div class="row2">
+                <div class="column2">
+                    
+                    <!--Form-->
+
+                    <form action="/action_page.php">
+                        <div class="formrow">
+                          <div class="col-25">
+                            <label for="fname">Name*</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          </div>
+                        </div>
+                        <div class="formrow">
+                          <div class="col-25">
+                            <label for="lname">Email*</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+                          </div>
+                        </div>
+                        <div class="formrow">
+                            <div class="col-25">
+                              <label for="fname">Phone Number</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text" id="fname" name="firstname" placeholder="Your phone number..">
+                            </div>
+                          </div>
+                        <div class="formrow">
+                          <div class="col-25">
+                            <label for="country">Inquiry*</label>
+                          </div>
+                          <div class="col-75">
+                            <select id="country" name="country">
+                              <option value="australia">Food Prep</option>
+                              <option value="canada">Customer Service</option>
+                              <option value="usa">Company</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="formrow">
+                            <div class="col-25">
+                              <label for="country">Location*</label>
+                            </div>
+                            <div class="col-75">
+                              <select id="country" name="country">
+                                <option value="australia">City 1</option>
+                                <option value="canada">City 2</option>
+                              </select>
+                            </div>
+                          </div>
+                        <div class="formrow">
+                          <div class="col-25">
+                            <label for="subject">Message*</label>
+                          </div>
+                          <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Tell us your issue..." style="height:200px"></textarea>
+                          </div>
+                        </div>
+                        <div class="formrow">
+                            <p style="font-family: 'Hind', sans-serif; font-size:12px; color: #7E0000;">*required items</p>
+                        </div>
+                        <div class="formrow">
+                          <input type="submit" value="Submit">
+                        </div>
+                      </form>
+
+
+                </div>
+                <div class="column2">
+                    Map
+                </div>
+              </div>
+
+            </div>
+        </div>
+<!--footer-->
+            
+<footer>
+    <div class="footer">
+    <div class="frow">
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+    <a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="frow">
+      <ul>
+        <li>123 Coffee Ave</li>
+        <li>City, USA</li>
+        <li>(123) 456 - 7890</li>
+      </ul>
+    </div>
+    
+      <div class="frow">
+      Java Bean Copyright © 2023 - Present
+      </div>
+    </div>
+  </footer>
+
+        </div>
+
+    </body>
+</html>
