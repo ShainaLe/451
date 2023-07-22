@@ -11,6 +11,19 @@
   body {
     background-color: #DFD9AB;
   }
+
+  .bars {
+    display: block;
+  }
+
+.navbar img {
+display: none;
+  }
+
+  .logomain img {
+    display: none;
+  }
+
   /* Style the navigation menu */
   .navbar {
     overflow: hidden;
@@ -20,7 +33,6 @@
 
   /* Hide the links inside the navigation menu (except for logo/home) */
   .navbar #myLinks {
-    display: none;
   }
 
   /* Style navigation menu links */
@@ -59,47 +71,10 @@
   body {
     background-color: #DFD9AB;
   }
-  /* Style the navigation menu */
-  .navbar {
-    overflow: hidden;
-    background-color: #7E0000;
-    position: relative;
-  }
-
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .navbar #myLinks {
+  .bars {
     display: none;
   }
 
-  /* Style navigation menu links */
-  .navbar a {
-    color: #DFD9AB;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-
-  /* Style the hamburger menu */
-  .navbar a.icon {
-    background: #7E0000;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  /* Add a grey background color on mouse-over */
-  .navbar a:hover {
-    background-color: #7E0000;
-    color: black;
-  }
-
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #191312;
-    color: #DFD9AB;
-  }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -108,68 +83,12 @@
     background-color: #DFD9AB;
   }
   .bars {
-    display: flex;
-  }
-  /* Style the navigation menu */
-  .navbar {
-    overflow: hidden;
-    background-color: #7E0000;
-    position: relative;
-  }
-
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .navbar #myLinks {
     display: none;
   }
+  /* Style the navigation menu */
 
-  /* Style navigation menu links */
-  .navbar a {
-    color: #DFD9AB;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-
-  /* Style the hamburger menu */
-  .navbar a.icon {
-    background: #7E0000;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  /* Add a grey background color on mouse-over */
-  .navbar a:hover {
-    background-color: #7E0000;
-    color: black;
-  }
-
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #191312;
-    color: #DFD9AB;
-  }
 }
 
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px){
-  body {
-    background-color: #DFD9AB;
-  }
-}
-
-/* Media Query for Large screens */
-@media (min-width: 1281px) {
-  body {
-    background-color: #DFD9AB;
-  }
-}
-
-.bars {
-  display: none;
-}
 
 h1 {
   font-family: 'Bitter', sans-serif;
