@@ -20,3 +20,5 @@ const validateEmail = (email) => {
   }
   
   $('#email').on('input', validate);
+
+  
