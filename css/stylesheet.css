@@ -212,12 +212,14 @@ nav {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
+  -moz-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-around;
   margin: 0;
   padding: 0 1rem;
   text-align: center;
   -webkit-box-align: center;
+  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   background: #7E0000;
@@ -234,6 +236,7 @@ ul {
 .navbar {
   text-align: center;
   -webkit-box-align: center;
+  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-transition: all 0.5s;
@@ -254,6 +257,7 @@ ul {
   margin: 0 auto;
   text-align: center;
   -webkit-box-align: center;
+  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: distribute;
@@ -310,11 +314,13 @@ a.nav-link:hover {
   }
   .active .bar:nth-child(1) {
     -webkit-transform: translateY(8px) rotate(-315deg);
+    -ms-transform: translateY(8px) rotate(-315deg);
     transform: translateY(8px) rotate(-315deg);
     width: 300%;
   }
   .active .bar:nth-child(3) {
     -webkit-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
     transform: translateY(-10px) rotate(-45deg);
     width: 300%;
   }
@@ -325,10 +331,14 @@ a.nav-link:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
     -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-pack: justify;
+    -moz-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: center;
     align-items: center;
@@ -695,7 +705,7 @@ a.nav-link:hover {
 
 .normal-container{
   background-color: #191312;
-  border-top: 4px solid xwhite;
+  border-top: 4px solid #191312;
   padding:30px 40px;
   font-family: 'Bitter', sans-serif;
   margin: auto;
@@ -827,7 +837,7 @@ a.nav-link:hover {
 
   .button {
     font-family: 'Hind', sans-serif;
-    float: left;
+    float: none;
     border-radius: 5px;
     background: #7E0000;
     border: none;
